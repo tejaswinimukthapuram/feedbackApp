@@ -1,0 +1,47 @@
+/* Write your CSS code here. */
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  display: flex;
+}
+
+.emoji {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.button {
+  background-color: #ffffff;
+  border-width: 0px;
+  border-color: #ffffff;
+  margin: 5px;
+}
+
+.thankyou-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 7px;
+  width: 360px;
+  height: 270px;
+  padding: 10px;
+}
